@@ -55,17 +55,17 @@
       "semana": 2,
       "dia": "Lunes",
       "fecha": "Pendiente por definir",
-      "tema": "Seguimiento comunitario",
+      "tema": "Protección de datos personales",
       "tipoPieza": "Resumen",
-      "pieza": "Resumen de propuestas recibidas",
+      "pieza": "Resumen de recomendaciones digitales",
       "canal": "Mini-sitio comunitario",
       "publicoObjetivo": "líderes comunitarios",
-      "proposito": "Mostrar avances sin exponer datos sensibles.",
+      "proposito": "Promover el cuidado de la información personal en plataformas digitales.",
       "tono": "informativo",
-      "llamadoAccion": "Revisa las categorías más frecuentes.",
-      "fuente": "API comunitaria",
+      "llamadoAccion": "Protege tus datos y evita compartir información sensible.",
+      "fuente": "Guía comunitaria digital",
       "responsable": "Equipo técnico y comunicaciones",
-      "observaciones": "No publicar datos personales innecesarios."
+      "observaciones": "No publicar información privada de los participantes."
     },
     {
       "id": 5,
