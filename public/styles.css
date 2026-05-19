@@ -1,13 +1,283 @@
+:root {
+  --fondo: #f4f7fb;
+  --fondo-card: #ffffff;
+  --borde-card: rgba(15, 23, 42, 0.08);
+  --texto: #1e293b;
+  --texto-suave: #64748b;
+  --acento-1: #059669;
+  --acento-2: #0891b2;
+  --acento-3: #7c3aed;
+  --sombra-glow: 0 8px 32px rgba(15, 23, 42, 0.06);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Outfit", system-ui, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--texto);
+  background: var(--fondo);
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(5, 150, 105, 0.12), transparent),
+    radial-gradient(ellipse 60% 40% at 100% 50%, rgba(8, 145, 178, 0.08), transparent),
+    radial-gradient(ellipse 50% 30% at 0% 80%, rgba(124, 58, 237, 0.06), transparent);
+}
+
+header {
+  text-align: center;
+  padding: 3.5rem 1.5rem 2.5rem;
+  position: relative;
+}
+
+header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(90%, 480px);
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--acento-1), var(--acento-2), transparent);
+  opacity: 0.6;
+}
+
+header p {
+  max-width: 42rem;
+  margin: 1.25rem auto 0;
+  color: var(--texto-suave);
+  font-size: 1.1rem;
+}
+
+main {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 0 1.25rem 4rem;
+}
+
+section {
+  background: var(--fondo-card);
+  border: 1px solid var(--borde-card);
+  border-radius: 16px;
+  padding: 1.75rem 1.85rem;
+  margin-bottom: 1.5rem;
+  backdrop-filter: blur(12px);
+  box-shadow: var(--sombra-glow);
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+section:hover {
+  border-color: rgba(5, 150, 105, 0.35);
+  box-shadow: 0 12px 40px rgba(5, 150, 105, 0.1);
+}
+
+section p {
+  color: var(--texto-suave);
+  margin: 0 0 1rem;
+}
+
+/* Títulos con gradiente animado */
+.decoracion {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  background: linear-gradient(
+    120deg,
+    var(--acento-1) 0%,
+    var(--acento-2) 45%,
+    var(--acento-3) 90%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: brillo-titulo 6s ease-in-out infinite;
+}
+
+@keyframes brillo-titulo {
+  0%, 100% { background-position: 0% center; }
+  50% { background-position: 100% center; }
+}
+
+header h1.decoracion {
+  font-size: clamp(2rem, 5vw, 2.85rem);
+  line-height: 1.15;
+  display: inline-block;
+  position: relative;
+  filter: drop-shadow(0 4px 16px rgba(5, 150, 105, 0.2));
+}
+
+header h1.decoracion::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 4px;
+  margin: 1rem auto 0;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--acento-1), var(--acento-2));
+  box-shadow: 0 2px 12px rgba(5, 150, 105, 0.35);
+}
+
+section h2.decoracion {
+  font-size: 1.45rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0;
+  border: none;
+}
+
+section h2.decoracion::before {
+  content: "";
+  flex-shrink: 0;
+  width: 4px;
+  height: 1.35em;
+  border-radius: 999px;
+  background: linear-gradient(180deg, var(--acento-1), var(--acento-2));
+  box-shadow: 0 0 8px rgba(5, 150, 105, 0.4);
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  color: var(--texto);
+  margin-bottom: 0.35rem;
+  font-size: 0.95rem;
+}
+
 input {
-    padding: 10px;
-    border: 1px solid #999999;
-    border-radius: 6px;
-    width: 100%;
-    max-width: 320px;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--borde-card);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 320px;
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--texto);
+  background: #ffffff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--acento-1);
+  box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.15);
+}
+
+button {
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--acento-1), var(--acento-2));
+  box-shadow: 0 4px 16px rgba(5, 150, 105, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(5, 150, 105, 0.35);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+#mensajeLogin {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: var(--acento-1);
+}
+
+.tablero {
+  margin-top: 1.25rem;
+  padding: 1.25rem;
+  border-radius: 12px;
+  background: #f1f5f9;
+  border: 1px dashed rgba(15, 23, 42, 0.12);
+  color: var(--texto-suave);
+  min-height: 3rem;
+}
+
+.tablero:empty,
+.tablero:not(:has(article)) {
+  font-style: italic;
+}
+
+.tarjeta-mensaje {
+  background: #ffffff;
+  border: 1px solid var(--borde-card);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
+  border-radius: 12px;
+  padding: 1.25rem 1.35rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.tarjeta-mensaje:last-child {
+  margin-bottom: 0;
+}
+
+.tarjeta-mensaje:hover {
+  border-color: rgba(8, 145, 178, 0.4);
+  box-shadow: 0 4px 16px rgba(8, 145, 178, 0.1);
+  transform: translateX(4px);
+}
+
+.tarjeta-mensaje h3 {
+  margin: 0 0 0.6rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--acento-1);
+}
+
+.tarjeta-mensaje p {
+  margin: 0.4rem 0;
+  color: var(--texto-suave);
+}
+
+.etiqueta {
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.25rem 0.65rem;
+  margin: 0.2rem 0.35rem 0.2rem 0;
+  border-radius: 999px;
+  background: rgba(5, 150, 105, 0.1);
+  color: var(--acento-1);
+  border: 1px solid rgba(5, 150, 105, 0.2);
+}
+
+.texto-secundario {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .decoracion {
+    animation: none;
+    background-position: 0% center;
   }
-  
-  #mensajeLogin {
-    margin-top: 12px;
-    font-weight: bold;
+
+  section,
+  button,
+  .tarjeta-mensaje {
+    transition: none;
   }
-  
+
+  button:hover,
+  .tarjeta-mensaje:hover {
+    transform: none;
+  }
+}
