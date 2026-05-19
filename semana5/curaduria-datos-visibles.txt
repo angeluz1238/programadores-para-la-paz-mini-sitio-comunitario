@@ -1,8 +1,8 @@
 Curaduría de datos visibles – Clase 22
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante:Angeluz Millan Alvarez
+Fecha:18 de mayo 2026
+Nombre de la rama:Angeluz_Millan
 
 Revisa los datos disponibles en data/mensajes.json y data/calendario-editorial.json.
 
