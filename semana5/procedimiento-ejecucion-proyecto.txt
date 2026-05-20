@@ -1,8 +1,8 @@
 Procedimiento de ejecución del proyecto – Clase 24
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante:Angeluz Millan Alvarez
+Fecha:20 mayo 2026
+Nombre de la rama:Angeluz_Millan
 
 Escribe el procedimiento para que otra persona pueda ejecutar el proyecto.
 
@@ -11,66 +11,70 @@ Escribe el procedimiento para que otra persona pueda ejecutar el proyecto.
 ¿Qué debe tener instalado la persona?
 Ejemplos: Git, Node.js, navegador, editor de código.
 
-Respuesta:
+Respuesta:Debe tener instalado Git, Node.js, un navegador web(mozilla,chrome,microsoft edge ) y un editor de código como Visual Studio Code.
 
 2. Clonar repositorio
 
-Comando:
+Comando: git clone https://github.com/mmgranda/programadores-para-la-paz-mini-sitio-comunitario.git
 
-Respuesta:
+Respuesta: Este comando descarga el proyecto desde GitHub a la computadora.
 
 3. Entrar a la carpeta del proyecto
 
-Comando:
+Comando:cd programadores-para-la-paz-mini-sitio-comunitario
 
-Respuesta:
+Respuesta:: Sirve para meterte dentro de la carpeta que acabas de descargar y poder trabajar en ella desde la terminal.
 
 4. Crear o cambiar a rama personal
 
-Comando:
+Comando:git checkout (cambiar rama) y git checkout - b(crear rama)
 
-Respuesta:
+Respuesta:Crea y te pasa automáticamente a tu propia sección de trabajo (rama) para que tus cambios no borren el trabajo de los demás
 
 5. Instalar dependencias
 
-Comando:
+Comando:npm install
 
-Respuesta:
+Respuesta:Instala todas las dependencias necesarias para ejecutar el proyecto.
 
 6. Ejecutar el proyecto
 
-Comando:
+Comando:npm run sitio
 
-Respuesta:
+Respuesta:Inicia el servidor y ejecuta el mini-sitio comunitario.
 
 7. Abrir en navegador
 
-Dirección:
+Dirección:http://localhost:3000
 
-Respuesta:
+Respuesta:: Es el enlace que debes escribir en la barra de arriba de tu navegador de internet para poder ver la pantalla de la página web comunitaria.
 
 8. Probar rutas de la API
 
 Escribe las rutas que se deben probar:
+/api/mensajes
+/api/calendario 
+/api/resumen 
+/api/login 
 
-Respuesta:
+Respuesta:permiten verificar que la API del proyecto está funcionando correctamente.
 
 9. Probar login pedagógico
 
-Usuario de demostración:
+Usuario de demostración: docente
 
-Clave de demostración:
+Clave de demostración:demo
 
-Resultado esperado:
+Resultado esperado:Login pedagógico correcto. En la Clase 25 usaremos este token para explicar middleware.
 
 10. Verificación final
 
 ¿Cómo sabe la persona que el proyecto está funcionando?
 
-Respuesta:
+Respuesta:Lo sabe si al entrar a la página y darle clic a los botones de "Cargar mensajes" , "Cargar calendario" o " cargar resumen", aparecen las tarjetas acomodadas con la información y no se queda la pantalla vacía o trabada.
 
 11. Nota de seguridad
 
 ¿Qué información NO debe publicarse?
 
-Respuesta:
+Respuesta:No deben publicarse credenciales reales, tokens, datos personales ni información sensible de la comunidad.

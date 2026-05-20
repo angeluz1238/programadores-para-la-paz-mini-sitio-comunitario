@@ -1,8 +1,8 @@
 Conceptos básicos de async y await – Clase 21
 
 Nombre del estudiante:Angeluz millan alvarez
-Fecha:
-Nombre de la rama:
+Fecha:18 mayo 2026
+Nombre de la rama:Angeluz_Millan
 
 Responde con tus propias palabras.
 

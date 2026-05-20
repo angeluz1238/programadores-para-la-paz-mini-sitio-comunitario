@@ -1,8 +1,8 @@
 Registro de uso verificable de IA – Clase 24
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante:Angeluz Millan Alvarez
+Fecha:20 de mayo 2026
+Nombre de la rama:Angeluz_Millan
 
 Importante:
 La IA puede ayudar a mejorar claridad, ordenar pasos y revisar redacción, pero toda sugerencia debe verificarse en el proyecto real.
@@ -18,32 +18,38 @@ No debes compartir con IA:
 1. ¿Para qué usaste IA en esta clase?
 Ejemplos: mejorar README, organizar pasos de ejecución, aclarar error, revisar redacción.
 
-Respuesta:
+Respuesta:Usé la IA para organizar mejor las ideas del proyecto y entender temas que me confundían,
+ como estilos del frontend, funcionamiento del backend, rutas de la API y algunos comandos de Git.
 
 2. Escribe la pregunta que hiciste a la IA:
 
-Respuesta:
+Respuesta:Le pedi que me explicara de forma sencilla la conexión entre frontend y backend , pedi que me explicara porque algunos comando de git
+como el nuevo que estamos viendo "merge" no me funcionana o me daba error , enviandole pantallazos del error y como cambiar styles.css.
 
 3. Resume la respuesta recibida:
 
-Respuesta:
+Respuesta:La IA explicó que el frontend es la parte visual de la página y el backend es la parte que maneja los datos y el servidor.
+ También me ayudó con ejemplos de comandos de Git y formas de revisar errores en el merge.
 
 4. ¿Qué parte de la respuesta aplicaste?
 
-Respuesta:
+Respuesta:Apliqué las mejoras de redacción, la explicación sencilla de algunos conceptos y los pasos para revisar comandos y organizar mejor el proyecto.
 
 5. ¿Qué parte decidiste no aplicar?
 
-Respuesta:
+Respuesta:No copié las respuestas exactamente iguales. Tomé algunas ideas para entender mejor ciertos temas y después redacté las respuestas con mis propias palabras según lo que entendí y lo que realmente funcionaba en el proyecto. 
+También revisé la información antes de usarla para evitar errores, porque la IA puede equivocarse o dar información incorrecta.
 
 6. ¿Cómo verificaste en el proyecto que la sugerencia era correcta?
 
-Respuesta:
+Respuesta:Lo verifiqué probando el proyecto en el navegador, revisando que las rutas funcionaran y comprobando si los comandos de Git y los cambios del proyecto sí funcionaban correctamente.
 
 7. ¿Incluiste datos sensibles o credenciales reales en la consulta?
 
-Respuesta:
+Respuesta:NO. Nunca puse nombres reales,ni contraseñas de verdad; solo usé los datos que venían en las guías de práctica del curso.
 
 8. ¿Qué aprendiste sobre uso responsable de IA?
 
-Respuesta:
+Respuesta:Aprendí que la IA puede ser una herramienta muy útil para organizar ideas, corregir la ortografía y ayudar a entender algunos temas.
+ Sin embargo, la responsabilidad de revisar que todo funcione correctamente en el computador sigue siendo mía. 
+ También entendí la importancia de no compartir información privada, contraseñas ni datos sensibles en internet.

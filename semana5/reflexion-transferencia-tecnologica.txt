@@ -1,8 +1,8 @@
 Reflexión sobre transferencia tecnológica – Clase 24
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante:Angeluz Millan Alvarez
+Fecha:20 de mayo 2026
+Nombre de la rama:Angeluz_Millan
 
 Escribe una reflexión de 8 a 10 líneas respondiendo:
 
@@ -25,3 +25,12 @@ En tu respuesta menciona al menos cinco de estas ideas:
 - cultura de paz
 
 Respuesta:
+Documentar un proyecto es importante porque ayuda a que otras personas puedan entenderlo aunque no hayan participado desde el inicio. 
+La documentación como transparencia permite que cualquier persona vea cómo funciona la página web y qué se ha hecho en el proyecto.
+Un archivo clave es el README, que funciona como una guía sencilla donde se explica de qué trata el sistema y cómo se usa. Gracias a esto se logra una claridad operativa,
+porque los pasos están explicados de forma fácil y ordenada, lo que también facilita la transferencia tecnológica,
+ya que el proyecto puede seguir funcionando aunque cambien las personas que lo desarrollan.
+
+Además, ver el historial de cambios en Git ayuda a entender todo lo que se ha hecho en el proyecto, como si fuera un registro. Los commits claros permiten entender qué se modificó y por qué,
+lo que hace más fácil revisar el trabajo. También es importante el uso responsable de la IA, usando el apoyo verificable de IA solo para ayudar a mejorar el proyecto, sin compartir contraseñas ni información sensible. 
+Esto evita la publicación de información sensible y protege a la comunidad. Cuando todo esto se hace bien, se genera confianza comunitaria, se impulsa la participación ciudadana y se fortalece una cultura de paz en el entorno digital.
