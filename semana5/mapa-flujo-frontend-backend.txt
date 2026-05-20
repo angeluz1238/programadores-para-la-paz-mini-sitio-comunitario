@@ -1,8 +1,8 @@
 Mapa del flujo Frontend-Backend – Clase 23
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante:Angeluz Millan Alvarez
+Fecha:19 de mayo del 2026
+Nombre de la rama:Angeluz_Millan
 
 Completa el flujo con tus palabras.
 
@@ -10,58 +10,65 @@ Completa el flujo con tus palabras.
 
 ¿Qué parte del proyecto corresponde al frontend?
 
-Respuesta:
+Respuesta: es el mini-sitio web que se ve en el navegador,es decir, la página web donde aparecen los botones, el tablero , la información de mensajes , calendario y resumen.
 
 2. Backend
 
 ¿Qué parte del proyecto corresponde al backend?
 
-Respuesta:
+Respuesta:Es el "cerebro" que está oculto detrás de la pantalla. Trabaja en la computadora como un motor invisible que guarda las cosas, 
+hace las cuentas y le manda la información limpia a la página cuando alguien la pide.
 
 3. API propia
 
 ¿Qué rutas expone la API propia del proyecto?
 
-Respuesta:
+Respuesta:Expone tres rutas principales: /api/mensajes para los contenidos de comunicación ,
+ /api/calendario para la planificación editorial y /api/resumen para mostrar los totales acumulados del proyecto.
 
 4. Datos
 
 ¿Qué archivos JSON usa el backend para responder?
 
-Respuesta:
+Respuesta:Usa los archivos del proyecto donde se guarda la base del contenido: data/mensajes.json (que tiene las propuestas aprobadas) 
+y data/calendario-editorial.json (que tiene la agenda de publicaciones de las dos semanas).
 
 5. Consulta desde frontend
 
 ¿Qué función de JavaScript se usa para consultar la API?
 
-Respuesta:
+Respuesta:: Se utiliza la función fetch(). Su trabajo es ir a buscar los datos crudos a las rutas del backend 
+cuando el usuario hace clic en los botones de carga.
 
 6. Espera de respuesta
 
 ¿Qué palabras se usan para esperar la respuesta del servidor?
 
-Respuesta:
+Respuesta:Se usan las palabras async y await para esperar la respuesta del servidor.
 
 7. Conversión de respuesta
 
 ¿Qué hace respuesta.json()?
 
-Respuesta:
+Respuesta:Traduce la información. El motor del servidor manda los datos en un código todo amontonado,
+ y esta orden lo acomoda en una listita limpia para que la página web lo pueda entender y acomodar bien.
 
 8. Render dinámico
 
 ¿Qué significa mostrar datos dinámicamente en el tablero?
 
-Respuesta:
+Respuesta:Significa que la información aparece automáticamente en la página después de consultar la API, sin escribir los datos manualmente en el HTML.
 
 9. Prueba
 
 ¿Cómo verificaste que la información del tablero coincide con la API?
 
-Respuesta:
+Respuesta:Al presionar los botones, los totales mostrados en la pantalla (Total de mensajes: 4 y Total de piezas del calendario: 6) coincidieron exactamente con la cantidad de datos y categorías
+ (prevencion-desinformacion, cultura-de-paz, etc.) que entrega el backend en sus rutas de consulta directa.
 
 10. Propósito comunitario
 
 ¿Cómo ayuda esta integración a mantener información comunitaria actualizable?
 
-Respuesta:
+Respuesta:: Ayuda muchísimo porque si el día de mañana cambia una fecha, una fuente o un mensaje, el equipo de comunicación solo tiene que corregir el archivo JSON en el servidor
+ El mini-sitio web se actualizará por sí solo inmediatamente para todos los usuarios sin necesidad de volver a programar o rediseñar la página desde cero.

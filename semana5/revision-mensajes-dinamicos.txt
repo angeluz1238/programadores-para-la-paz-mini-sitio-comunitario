@@ -8,44 +8,44 @@ Selecciona un mensaje que aparezca en el tablero y responde.
 
 1. Título del mensaje seleccionado:
 
-Respuesta:
+Respuesta:“Participación digital responsable”.
 
 2. ¿El mensaje se cargó dinámicamente desde la API?
 
-Respuesta:
+Respuesta:si|, el mensaje se cargó automáticamente en el tablero desde la API del proyecto.
 
 3. ¿El mensaje tiene propósito comunitario?
 
-Respuesta:
+Respuesta:Sí, porque busca fortalecer la participación respetuosa y responsable entre los miembros la comunidad.
 
 4. ¿El mensaje tiene audiencia clara?
 
-Respuesta:
+Respuesta:Sí, está dirigido a la comunidad general.
 
 5. ¿El tono es adecuado?
 
-Respuesta:
+Respuesta:Sí, utiliza un tono educativo y respetuoso.
 
 6. ¿El llamado a la acción es comprensible?
 
-Respuesta:
+Respuesta:Sí, invita claramente a compartir ideas de manera responsable y constructiva.
 
 7. ¿El mensaje tiene fuente o criterio de verificación?
 
-Respuesta:
+Respuesta:Sí, tiene como fuente la Guía de convivencia digital.
 
 8. ¿Mantiene consistencia comunicativa con los demás mensajes?
 
-Respuesta:
+Respuesta:Sí, mantiene el mismo estilo de redacción y organización que los otros mensajes del tablero.
 
 9. ¿Requiere moderación editorial básica antes de publicarse?
 
-Respuesta:
+Respuesta:Sí, siempre es importante revisar la claridad del mensaje y confirmar la información antes de publicarlo.
 
 10. ¿Usa lenguaje responsable y no estigmatizante?
 
-Respuesta:
+Respuesta:Sí, usa un lenguaje claro, respetuoso y adecuado para toda la comunidad.
 
 11. Escribe una mejora editorial para el mensaje:
 
-Respuesta:
+Respuesta:Se podría agregar un ejemplo de propuesta comunitaria para que las personas entiendan mejor cómo participar.

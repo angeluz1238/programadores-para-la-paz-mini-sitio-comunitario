@@ -31,6 +31,17 @@
       "llamadoAccion": "Publica avisos con información completa.",
       "fuente": "Protocolo editorial del curso",
       "revisionEditorial": "aprobada"
+    },
+    {
+      "id": 4,
+      "titulo": "Participación digital responsable",
+      "mensaje": "Las propuestas comunitarias deben presentarse con respeto, claridad y datos verificables para fortalecer la confianza entre vecinos.",
+      "categoria": "participacion-ciudadana",
+      "audiencia": "comunidad general",
+      "tono": "educativo",
+      "llamadoAccion": "Comparte ideas de manera responsable y constructiva.",
+      "fuente": "Guía de convivencia digital",
+      "revisionEditorial": "aprobada"
     }
   ]
   
