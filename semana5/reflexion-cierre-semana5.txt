@@ -1,8 +1,8 @@
 Reflexión de cierre de Semana 5 – Clase 25
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante:Angeluz Millan Alvarez
+Fecha:21 mayo 2026
+Nombre de la rama:Angeluz_Millan
 
 Escribe una reflexión de 10 a 12 líneas respondiendo:
 
@@ -43,3 +43,12 @@ En tu respuesta menciona al menos ocho de estas ideas:
 - cultura de paz
 
 Respuesta:
+Al comenzar las primeras clases no sabía absolutamente nada sobre GitHub, APIs, ramas o comandos de Git. 
+Poco a poco, realizando este proyecto y practicando constantemente, fui entendiendo mejor cómo funciona el desarrollo web y cómo organizar un proyecto completo. 
+Aprendí a trabajar con un repositorio, usar la rama main y mi rama personal, además de hacer commit, push, git pull y git merge para guardar y actualizar mis avances.
+También mejoré mis conocimientos en HTML, CSS y JavaScript, y descubrí cómo Node.js y Express permiten crear una API que trabaja con datos JSON. 
+ Con fetch, async y await pude conectar el mini-sitio con el backend y mostrar información en el tablero de mensajes y el calendario editorial.
+ Aunque el ejemplo del middleware simple no funcionó completamente como se esperaba, sí logré comprender cuál era su función y cómo sirve para proteger rutas mediante validación de login o token.
+Este proyecto también me hizo entender que una plataforma de comunicación y ayuda comunitaria puede ayudar a que una comunidad se organice mejor, comparta información responsable y fortalezca la participación ciudadana. 
+Además, aprendí sobre revisión de fuentes, difusión responsable y la importancia de mantener un lenguaje respetuoso y no estigmatizante.
+ No soy experta, pero he aprendido mucho a lo largo de las clases y ahora entiendo mucho mejor herramientas y conceptos que antes me parecían muy difíciles.

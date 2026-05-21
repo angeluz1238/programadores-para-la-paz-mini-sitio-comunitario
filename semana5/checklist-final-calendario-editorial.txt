@@ -1,8 +1,8 @@
 Checklist final del calendario editorial – Clase 25
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante:Angeluz Millan Alvarez
+Fecha:21 de mayo 2026
+Nombre de la rama:Angeluz_Millan
 
 Marca SÍ o NO y explica brevemente.
 
@@ -10,58 +10,59 @@ Marca SÍ o NO y explica brevemente.
 
 ¿El calendario tiene dos semanas de planificación?
 
-Respuesta:
+Respuesta:SÍ. El calendario incluye “Semana 1” y “Semana 2”.
 
 2. Seis piezas
 
 ¿El calendario tiene al menos seis piezas?
 
-Respuesta:
+Respuesta:SÍ. Hay seis piezas distribuidas entre lunes, miércoles y viernes de dos semanas. Además, el resumen confirma “Total de piezas del calendario: 6”
 
 3. Fecha o momento de publicación
 
 ¿Cada pieza tiene fecha, día o momento definido?
 
-Respuesta:
+Respuesta:SÍ. Cada publicación tiene definido el momento: “Semana 1 - Lunes”, “Semana 1 - Miércoles”, “Semana 2 - Viernes”, etc.
 
 4. Tema
 
 ¿Cada pieza tiene un tema claro?
 
-Respuesta:
+Respuesta:SÍ. Todas las piezas incluyen un apartado “Tema”, por ejemplo: “Verificación de información”, “Convivencia digital” y “Lenguaje responsable”
 
 5. Público objetivo
 
 ¿Cada pieza define público objetivo?
 
-Respuesta:
+Respuesta:: SÍ. Cada pieza especifica el público objetivo, como “comunidad general”, “jóvenes participantes” o “líderes comunitarios”
 
 6. Propósito
 
 ¿Cada pieza tiene propósito comunitario?
 
-Respuesta:
+Respuesta:SÍ. Todas las piezas describen un propósito relacionado con participación responsable, convivencia o prevención de desinformación.
 
 7. Responsable
 
 ¿Cada pieza define responsable?
 
-Respuesta:
+Respuesta:NO. El calendario no menciona una persona o rol responsable de cada pieza.
 
 8. Revisión de fuentes
 
 ¿Cada pieza incluye fuente o criterio de verificación?
 
-Respuesta:
+Respuesta:SÍ. Las piezas incluyen fuentes como “Canal institucional comunitario”, “Equipo de comunicaciones” y “Guía comunitaria digital”.
 
 9. Consistencia comunicativa
 
 ¿Las piezas mantienen coherencia entre sí?
 
-Respuesta:
+Respuesta:Í. Todas las piezas mantienen coherencia temática sobre difusión responsable, convivencia digital, participación ciudadana y lenguaje respetuoso.
 
 10. Lenguaje responsable y no estigmatizante
 
 ¿Las piezas evitan insultos, generalizaciones, alarmismo o señalamientos sin evidencia?
 
 Respuesta:
+SÍ. El contenido promueve respeto, evita mensajes ofensivos y rechaza el alarmismo y la desinformación.

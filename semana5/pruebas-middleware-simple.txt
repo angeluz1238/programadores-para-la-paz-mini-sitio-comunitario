@@ -1,8 +1,8 @@
 Pruebas de middleware simple – Clase 25
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante:Angeluz Millan Alvarez
+Fecha:21 mayo 2026
+Nombre de la rama:Angeluz_Millan
 
 Importante:
 Este middleware es pedagógico. No representa seguridad real de producción.
@@ -15,10 +15,10 @@ Abrir el mini-sitio y probar la revisión editorial protegida sin iniciar sesió
 Resultado esperado:
 El sistema debe negar el acceso o indicar que falta token.
 
-Resultado observado:
+Resultado observado:visualice la revision editorial sin nececidad de iniciar sesion
 
 ¿Funcionó?
-Respuesta:
+Respuesta:no, no se si es una falla de la pagina pero , puedo ver la revision de la editorial sin colocar usuario y contraseña.
 
 Prueba 2: Login pedagógico
 
@@ -31,10 +31,10 @@ demo
 Resultado esperado:
 El sistema responde login pedagógico correcto y guarda token de demostración.
 
-Resultado observado:
+Resultado observado:Login pedagógico correcto. Ya puedes probar la ruta protegida.
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si
 
 Prueba 3: Ruta protegida después del login
 
@@ -44,25 +44,26 @@ Probar revisión editorial protegida después del login.
 Resultado esperado:
 El sistema permite ver la respuesta de revisión editorial pedagógica.
 
-Resultado observado:
+Resultado observado: se observa la revision editorial , sin necesidad de ingresar el login
 
 ¿Funcionó?
-Respuesta:
+Respuesta:si , pero no con los criterios deseados.
 
 Prueba 4: Token incorrecto
 
 Explica qué debería pasar si el token no coincide con el esperado.
 
-Respuesta:
+Respuesta: no deberia desplegarce la revision editorial protegida , y mostrar un mensaje indicando que el token es inválido o no autorizado.
 
 5. ¿Qué hace el middleware simple?
 
-Respuesta:
+Respuesta:El middleware simple verifica si existe un token pedagógico antes de permitir el acceso a una ruta protegida del proyecto.
 
 6. ¿Por qué este middleware no debe confundirse con seguridad real?
 
-Respuesta:
+Respuesta:Porque es solo una práctica educativa. No utiliza cifrado, autenticación avanzada, protección de sesiones ni medidas reales de seguridad para producción.
 
 7. ¿Qué aprendiste sobre rutas públicas y rutas protegidas?
 
-Respuesta:
+Respuesta:Aprendí que las rutas públicas pueden ser utilizadas por cualquier usuario, mientras que las rutas protegidas requieren validación previa mediante login o token antes de permitir el acceso.
+aunque en este caso no funciono el ejemplo , no se si fue por falta de algun comando .

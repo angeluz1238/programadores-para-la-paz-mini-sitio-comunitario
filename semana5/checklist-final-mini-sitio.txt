@@ -1,8 +1,8 @@
 Checklist final del mini-sitio – Clase 25
 
-Nombre del estudiante:
-Fecha:
-Nombre de la rama:
+Nombre del estudiante:Angeluz Millan Alvarez
+Fecha:21 de mayo 2026
+Nombre de la rama:Angeluz_Millan
 
 Marca SÍ o NO y explica brevemente.
 
@@ -10,58 +10,58 @@ Marca SÍ o NO y explica brevemente.
 
 ¿El mini-sitio abre correctamente en http://localhost:3000?
 
-Respuesta:
+Respuesta:Sí. El mini-sitio abre correctamente y muestra las diferentes secciones del proyecto.
 
 2. API propia
 
 ¿El mini-sitio consume datos desde la API propia?
 
-Respuesta:
+Respuesta:: Sí. El proyecto muestra mensajes, calendario y resumen cargados desde la API propia.
 
 3. Tablero de mensajes
 
 ¿Los mensajes se cargan dinámicamente?
 
-Respuesta:
+Respuesta:Sí. El tablero comunitario carga mensajes desde la API propia del proyecto.
 
 4. Calendario editorial
 
 ¿El calendario editorial se muestra correctamente?
 
-Respuesta:
+Respuesta:Sí. El calendario editorial aparece organizado por semanas, temas y llamados a la acción.
 
 5. Resumen
 
 ¿La sección de resumen carga información desde el backend?
 
-Respuesta:
+Respuesta:: SÍ. Tiene un botón que hace la cuenta solito y te dice que en total hay 4 mensajes y 6 publicaciones guardadas en el sistema.
 
 6. Login pedagógico
 
 ¿El login pedagógico responde correctamente?
 
-Respuesta:
+Respuesta:SÍ. Viene con sus cajoncitos para poner el usuario docente y la contraseña, y abajo te avisa si pudiste entrar o no.
 
 7. Middleware simple
 
 ¿La ruta protegida responde solo después de usar el token de demostración?
 
-Respuesta:
+Respuesta:no, no se si esta mal pero sin necesidad de colocar login y clave me despliega la informacion de la ruta protegida.
 
 8. Accesibilidad mínima
 
 ¿La interfaz tiene títulos, secciones y textos legibles?
 
-Respuesta:
+Respuesta:Sí. El mini-sitio tiene títulos claros, secciones organizadas y textos fáciles de leer.
 
 9. Minimización de datos visibles
 
 ¿La vista pública evita mostrar datos innecesarios?
 
-Respuesta:
+Respuesta:Sí. El proyecto muestra únicamente información comunitaria necesaria y evita exponer datos personales.
 
 10. Funcionamiento general
 
 ¿El proyecto funciona como una herramienta comunitaria básica?
 
-Respuesta:
+Respuesta:Sí. El proyecto integra mensajes, calendario, resumen y acceso pedagógico para apoyar la comunicación comunitaria.
